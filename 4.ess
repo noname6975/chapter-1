@@ -1,0 +1,21 @@
+start
+
+new card_number string 
+new cardholder_name string 
+new expiry_date string 
+new bank_name string 
+
+set card_number "1234 5678 9012 3456"
+set cardholder_name "ИВАН ИВАНОВ"
+set expiry_date "12/24"
+set bank_name "НАШ БАНК"
+
+log string "|-----------">>bank_name>>"-----------------|"
+log string "|------------------------------------|"
+log string "|-Card Number:-">>card_number>>"---|"
+log string "|------------------------------------|"
+log string "|-Cardholder:-">>cardholder_name>>"------------|"
+log string "|-Expiry Date:-">>expiry_date>>"-----------------|"
+
+
+finish 
