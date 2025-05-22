@@ -1,0 +1,8 @@
+start
+
+log string "L"
+log string "L"
+log string "L"
+log string "LLLLLLL"
+
+finish
